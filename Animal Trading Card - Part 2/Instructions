@@ -8,7 +8,7 @@ placeholder.png
 design-prototype.jpg
 ----------------------------------------------------------------------------------------------------------------------------------------------
 ((Required Changes))
-Make the following changes to (card.html)
+**Make the following changes to (card.html):
 
 1- Change the heading to the name of your favorite animal
 2- Replace the placeholder image with your favorite animal's image.
@@ -19,7 +19,7 @@ Note: You will want to use an image with a width of 300 pixels. If your image is
 5- Edit the informational paragraph
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 ((Style the Page))
-Try to recreate the (design-prototype.jpg)
+**Try to recreate the (design-prototype.jpg):
 
 You’ll need to modify card.html to include attributes and use selectors to specify the elements you want to style.
 The CSS must apply these styles to match the design prototype:
@@ -31,4 +31,4 @@ The CSS must apply these styles to match the design prototype:
 5- remove dots from the animal's list items
 6- add a border around the animal's name, image, and information
 7- add a border around the animal's information
-8- add spacing between the animal's name, image, and information (you will need to use the property padding)
+8- add spacing between the animal's name, image, and information (you will ne
