@@ -1,1 +1,3 @@
-This is the 2nd phase for the Google Challange Scholarship - Front End Web Development Track.
+Front-end Nanodegree Projects
+
+This repository contains all my files for the Front-end Nanodegree projects.
