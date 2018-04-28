@@ -1,6 +1,6 @@
 # **Front-end Nanodegree**
 
-This repository contains all my files for the Front-end Nanodegree Exercises.
+This repository contains all my files for the Front-end Nanodegree Exercises with notes.
 
 ##Front-END NanoDegree(Version 8.0)
 
