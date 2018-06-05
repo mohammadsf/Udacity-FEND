@@ -1,0 +1,8 @@
+/* Edit this part when figured out. Still don't know how to apply @media */
+@media screen and (min-width: 500px) {
+    p { color: #f79420; }
+}
+
+p{
+    color: blue;
+}
