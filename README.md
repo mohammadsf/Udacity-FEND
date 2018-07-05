@@ -6,7 +6,7 @@ This repository contains all my files for the Front-end Nanodegree Exercises wit
 
 |Project No.|  Project name                               |Suggested Dealine to finish by October 24th | Progress |
 |-----------|---------------------------------------------|--------------------------------------------|----------|
-|     1     |   Build a Porfolio Sight                    |                    May 10th                | []       |
+|     1     |   Build a Porfolio Sight                    |                    May 10th                | [x]      |
 |     2     |   Memory Game                               |                    May 28th                | []       |
 |     3     |   Classic Arcade Game Clone                 |                    July 9th                | []       |
 |     4     |   Feed Reader Testing                       |                    July 23rd               | []       |
