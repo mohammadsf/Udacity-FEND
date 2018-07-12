@@ -4,11 +4,19 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}\\Part 2 - Web Programming with JavaScript\\Lesson 3 - Conditionals\\Section 12 - Quiz - Checking your Balance (3-5)\\Quiz.js"
         }
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "launch program",
+            "program": "${workspaceFolder}\\Part 2 - Web Programming with JavaScript\\Lesson 3 - Conditionals\\Section 13 - Ice Cream (3-6)\\Quiz.js"
+        }
+
     ]
 }
