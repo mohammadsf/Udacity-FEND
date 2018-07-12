@@ -37,11 +37,32 @@ If room equals gallery and suspect equals Ms. Van Cleve, then Ms. Van Cleve did 
  */
 
 // change the value of `room` and `suspect` to test your code
-var room = "dining room";
+var room = "Ball Room";
 var weapon = "";
-var suspect = "Mr. Parkes"
+var suspect = "Mr. Kalehoff";
+var solved = false;
 
+if (room === 'Ball Room' && suspect === 'Mr. Kalehoff'){
+    weapon = 'poison';
+    solved = true;
+} else if (room === 'Galley' && suspect === 'Ms. Van Cleve'){
+    weapon = 'Trophy';
+    solved = true;
+} else if (room === 'Billiard Room' && suspect === 'Mrs. Sparr'){
+    weapon = 'Pool';
+    solved = true;
+} else if (room === 'Dining Room' && suspect === 'Mr. Parkes'){
+    weapon = 'Knife';
+    solved = true;
+} else {
+    solved = false;
+}
 
+if (solved){
+    console.log(suspect + ' did it in the ' + room + ' with the ' + weapon + '!');
+}
 
     //console.log('%s did it in the %s with the %s!', suspect, room, weapon);
+
+
 
