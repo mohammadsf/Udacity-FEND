@@ -49,11 +49,11 @@ TIP: Make sure to test your code with different values. For example,
  */
 
 // change the values of `flavor`, `vessel`, and `toppings` to test your code
-var flavor = "chocolate";
+var flavor = "vanilla";
 var vessel = "bowl";
 var toppings = "peanuts";
 
 // Add your code here
-if (flavor === "vanilla" || flavor === "chocolate") && (vessel === "cone" || vessel === "bowl") &&& (toppings === "springles" || toppings === "peanuts"){
+if ((flavor === "vanilla" || flavor === "chocolate") && (vessel === "cone" || vessel === "bowl") && (toppings === "springles" || toppings === "peanuts")){
     console.log("I'd like two scoops of " + flavor + " ice cream in a " + vessel + " with " + toppings + " .");
 }
