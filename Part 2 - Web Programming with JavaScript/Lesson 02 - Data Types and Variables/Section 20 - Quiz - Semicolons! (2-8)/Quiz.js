@@ -11,6 +11,3 @@ where "red" is the value of thingOne and "blue" is the value of thingTwo. Don't 
 var thingOne = 'red';
 var thingTwo = 'blue';
 console.log(thingOne + " " + thingTwo);
-
-// Using String Substitutions
-//console.log("%s %s", thingOne, thingTwo);
