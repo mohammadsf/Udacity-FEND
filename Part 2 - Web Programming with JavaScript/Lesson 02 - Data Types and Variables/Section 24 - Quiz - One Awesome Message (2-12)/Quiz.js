@@ -18,9 +18,9 @@
  */
 
 // Add your code here
-var firstName = 'Mohammad';
-var interest = 'flying';
-var hobby = 'soccer';
+var firstName = "Mohammad";
+var interest = "flying";
+var hobby = "play soccer";
 
 var awesomeMessage = "Hi, my name is " + firstName + ". I love " + interest + ". In my spare time, I like to " + hobby + ".";
-console.log(awesomeMessage);    
+console.log(awesomeMessage);
