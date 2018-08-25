@@ -62,7 +62,5 @@ if (solved){
     console.log(suspect + ' did it in the ' + room + ' with the ' + weapon + '!');
 }
 
-    //console.log('%s did it in the %s with the %s!', suspect, room, weapon);
-
 
 
