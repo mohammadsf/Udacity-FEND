@@ -26,7 +26,7 @@ TIP: Make sure to test your code with different values. For example,
 If education equals "an Associate's degree", then In 2015, a person with an Associate's degree earned an average of $41,496/year. should be printed to the console.
 */
 
-var education = "a Bachelor's degree";
+var education = "no high school diploma";
 var salary = 59124;
 
 switch (education) {
@@ -52,4 +52,5 @@ switch (education) {
     salary = 84396;
     break;
 }
-console.log ("In 2015, a person with " + education + " earned an average of $" + salary + "/year.");
+
+console.log("In 2015, a person with " + education + " earned an average of $" +  salary.toLocaleString("en-us") + "/year.");
