@@ -24,8 +24,8 @@ Example output for row-seat information: output each row and seat number on a se
  *  - the row and seat numbers start at 0, not 1
  *  - the highest seat number is 99, not 100
  */
-for (let row = 0; row < 26; row++){
-     for (let seat = 0; seat <= 99; seat++){
-       console.log(`${row}-${seat}`);
-     }
- }
+for (let row = 0; row < 26; row ++) {
+  for (let seat = 0; seat < 100; seat++) {
+      console.log(row + "-" + seat);
+  }
+}
