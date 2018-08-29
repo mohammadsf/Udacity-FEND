@@ -25,11 +25,12 @@ Your text editor may try to autocorrect your ellipses (...) to the ellipses char
 var num = 99;
 
 while (num > 0) {
-  let currentBottle = num;
-  let takeOneBottle = num - 1;
-  let currentBottlesText = currentBottle === 1 ? 'bottle' : 'bottles';
-  let takeOnebottlesText = takeOneBottle === 1 ? 'bottle' : 'bottles';
-  console.log(`${currentBottle} ${currentBottlesText} of juice on the wall! ${currentBottle} ${currentBottlesText} of juice! Take one down, pass it around... ${takeOneBottle} ${takeOnebottlesText} of juice on the wall!`);
+    let currentBottle = num;
+    let takeOneBottle = num - 1;
+    let currentBottleText = currentBottle === 1 ? "bottle" : "bottles";
+    let takeOneBottleText = takeOneBottle === 1 ? "bottle" : "bottles";
+    console.log(currentBottle +" " + currentBottleText + " of juice on the wall! " + currentBottle + " " + currentBottleText + " of juice! Take one down, pass it around... " + takeOneBottle + " " + takeOneBottleText + " of juice on the wall!");
 
-  num -= 1;
+num -= 1;
+
 }
