@@ -8,13 +8,12 @@
  *  - make sure that your function produces the correct results when it is called multiple times
  */
 
- function laugh(num){
-     let has = "";
-     for (let i = 0; i < num; i++){
-         has+="ha";
-
-     }
-     
-     return `${has}!`
- }
- console.log(laugh(4));
+function laugh(num) {
+    let has = "";
+    for (let i = 0; i < num; i++){
+        has+="ha";
+    }
+    
+    return has + '!'
+}
+console.log(laugh(3));
